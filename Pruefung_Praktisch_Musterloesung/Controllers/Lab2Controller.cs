@@ -17,7 +17,11 @@ namespace Pruefung_Praktisch_Musterloesung.Controllers
 
         /**
         * 
-        * ANTWORTEN BITTE HIER
+        * Frage 1: 1. Attacke: Mittels SQL Injection kann hier angegriffen werden.
+        * In die Login Felder kann man dadurch SQL eingeben und sodurch kann man sich ohne einzuloggen den Zugang zu einem anderen Benutzer verschaffen.
+        * Frage 2: 2. Attacke: Mit Session Fixation kann hier angegriffen werden.
+        * In dem man beispielsweise in einem Link die SessionId mitgibt, kann sich der Hacker mit einem bereits eingeloggten Benutzer Zugang verschaffen.
+        * 
         * 
         * */
 
